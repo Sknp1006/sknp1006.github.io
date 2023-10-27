@@ -51,12 +51,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
 
-  unocss: {
-    safelist: [
-      'i-ri-home-line',
-    ],
-  },
-  
+  unocss: { safelist },
+
   addons: [
     addonComponents(),
     addonWaline({

@@ -1,6 +1,9 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
-import { addonWaline } from "valaxy-addon-waline";
+import { addonWaline } from 'valaxy-addon-waline'
+
+import { addonAlgolia } from 'valaxy-addon-algolia'
+import { addonComponents } from 'valaxy-addon-components'
 
 // add icons what you will need
 const safelist = [
@@ -48,17 +51,18 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
 
-  unocss: { safelist },
-
+  unocss: {
+    safelist: [
+      'i-ri-home-line',
+    ],
+  },
+  
   addons: [
+    addonComponents(),
     addonWaline({
-      serverURL: "https://waline.sknp.top",		// Waline服务链接
-      locale: {
-        placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
-      },
+      serverURL: 'https://waline.sknp.top',
+      // pageview: true,
       comment: true,
-      pageview: true
     }),
   ],
-  
 })

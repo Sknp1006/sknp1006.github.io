@@ -53,6 +53,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
+  comment: true,
+
   addons: [
     addonComponents(),
     addonWaline({

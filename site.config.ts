@@ -93,6 +93,11 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
+    type: 'fuse'
+  },
+
+  comment: {
+    enable: true,
   },
 
   sponsor: {
@@ -118,6 +123,26 @@ export default defineSiteConfig({
         icon: 'i-ri-wechat-pay-line',
       },
     ],
+  },
+
+  statistics: {
+    enable: true,
+    readTime: {
+        speed: {
+            /**
+             * Chinese word count speed
+             * @description 中文每分钟阅读字数
+             * @default 300 (300 字/分钟)
+             */
+            cn: 300,
+            /**
+             * English word count speed
+             * @description 英文每分钟阅读字数
+             * @default 100 (200 字/分钟)
+             */
+            en: 100,
+        },
+    },
   },
 },
 )

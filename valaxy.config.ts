@@ -53,14 +53,15 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
-  comment: true,
-
   addons: [
     addonComponents(),
     addonWaline({
       serverURL: 'https://waline.sknp.top',
-      // pageview: true,
+      locale: {
+        placeholder: '填写邮箱或点击登陆，让我们保持联系～'
+      },
       comment: true,
+      pageview: true,
     }),
   ],
 })

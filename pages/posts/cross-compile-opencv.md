@@ -36,8 +36,8 @@ cd ${BUILD_DIR}
 cmake -B . -S ${ROOT_PWD} \
 -DCMAKE_INSTALL_PREFIX=/opt/opencv \
 -DCMAKE_BUILD_TYPE=Release \
--DCMAKE_C_COMPILER=/usr/bin/arm-linux-gnueabi-gcc \
--DCMAKE_CXX_COMPILER=/usr/bin/arm-linux-gnueabi-g++ \
+-DCMAKE_C_COMPILER=/usr/bin/aarch64-linux-gnu-gcc \
+-DCMAKE_CXX_COMPILER=/usr/bin/aarch64-linux-gnu-g++ \
 -DCMAKE_SYSTEM_NAME=Linux \
 -DCMAKE_SYSTEM_PROCESSOR=aarch64
 
@@ -47,7 +47,7 @@ make -j8
 
 - 带opencv_contrib的情况
 
-```sh
+```bash
 # 拉取opencv_contrib源码
 > cd <opencv_path>
 > git clone https://github.com/opencv/opencv_contrib.git
@@ -63,7 +63,7 @@ make -j8
 
 2. 执行编译
 
-```sh
+```bash
 > chmod +x build.sh
 > ./build.sh
 

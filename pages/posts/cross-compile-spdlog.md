@@ -32,8 +32,8 @@ fi
 cd ${BUILD_DIR}
 cmake -B . -S ${ROOT_PWD} \
 -DCMAKE_BUILD_TYPE=Release \
--DCMAKE_C_COMPILER=/usr/bin/arm-linux-gnueabi-gcc \
--DCMAKE_CXX_COMPILER=/usr/bin/arm-linux-gnueabi-g++ \
+-DCMAKE_C_COMPILER=/usr/bin/aarch64-linux-gnu-gcc \
+-DCMAKE_CXX_COMPILER=/usr/bin/aarch64-linux-gnu-g++ \
 -DCMAKE_INSTALL_PREFIX=/opt/spdlog
 make -j8
 
@@ -41,7 +41,7 @@ make -j8
 
 2. 执行编译
 
-```sh
+```bash
 > chmod +x build.sh
 > ./build.sh
 

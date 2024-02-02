@@ -2,7 +2,7 @@
 title: 【交叉编译】qt5
 date: 2024-01-31 16:22:33 +8
 updated: 2024-01-31 16:22:33 +8
-tags: [cross compile, cmake, aarch64, qt5]
+tags: [cross compile, aarch64, qt5]
 categories: 
   - 牛排的小教程
 ---
@@ -30,7 +30,7 @@ categories:
 -opensource \
 -confirm-license \
 -release \
--xplatform linux-arm-gnueabi-g++ \
+-xplatform linux-aarch64-gnu-g++ \
 -make libs \
 -nomake examples \
 -nomake tools \
@@ -45,7 +45,7 @@ categories:
 
 - 编译脚本应创建在build文件夹中
 
-```sh
+```bash
 # 新建build文件夹
 > mkdir build
 > cd build
@@ -59,7 +59,7 @@ categories:
 
 > **注意** ：当使用非apt安装的第三方交叉编译工具 或者 你知道自己在干嘛的时候才需要编辑
 
-```sh
+```bash
 # 在linux-aarch64-gnu-g++的基础上修改
 > cd <qt5_path>/qtbase/mkspecs/linux-aarch64-gnu-g++
 ```
@@ -100,7 +100,7 @@ load(qt_config)
 
 3. 执行编译
 
-```sh
+```bash
 > cd <qt5_path>/build
 > chmod +x build.sh
 

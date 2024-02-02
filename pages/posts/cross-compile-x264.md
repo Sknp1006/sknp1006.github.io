@@ -16,13 +16,13 @@ categories:
 
 1. 执行编译
 
-```sh
+```bash
 > ./configure \
 --prefix=/opt/x264 \
 --enable-shared \
 --enable-static \
 --host=aarch64-linux \
---cross-prefix=arm-linux-gnueabi- \
+--cross-prefix=aarch64-linux-gnu- \
 --disable-opencl \
 --enable-pic \
 --disable-asm

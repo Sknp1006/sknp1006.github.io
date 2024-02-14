@@ -52,7 +52,7 @@ links:
     blog: 浮云翩迁之间
     desc: 百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。
     color: "#2d6e58"
-  - url: https://blog.homo114514.com/
+  - url: https://blog.cutelyra.cn/
     avatar: https://s2.loli.net/2022/12/01/7uymTL9StzkeqRE.png
     name: Lyra
     blog: Lyra.Planet

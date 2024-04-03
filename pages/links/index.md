@@ -28,18 +28,6 @@ links:
     desc: 愿你一生努力，一生被爱。
     color: "#7a7c8d" #代表色
     email: # 非必须
-  - url: https://huaiyu.org/
-    avatar: https://huaiyu.org/avatar.jpg
-    name: Wyatt
-    blog: Wyatt's Blog 
-    desc: "Life is Strange"
-    color: "#A4BEDF"
-  - url: https://blog.dogeshadow.top
-    avatar: https://upyun.dogeshadow.top/site/dogeshadow.jpeg
-    name: 神烦狗
-    blog: 神烦狗的小站
-    desc: 仿生人会梦见程序猿吗(✿◕‿◕ ✿)
-    color: "#FAD94B"
   - url: https://moeci.com/
     avatar: https://moeci.com/images/avatar.png
     name: yiyun

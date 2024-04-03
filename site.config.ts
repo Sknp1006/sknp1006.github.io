@@ -102,7 +102,7 @@ export default defineSiteConfig({
 
   sponsor: {
     enable: true,
-    title: '我很可爱，请给我钱！',
+    title: '禁止打赏！',
     methods: [
       {
         name: '支付宝',

@@ -64,6 +64,12 @@ links:
     blog: 东方幻梦⭐️
     desc: 只是当时已惘然
     color: "#F4E1A0"
+  - url: https://bilibili.wtf
+    avatar: https://avatars.githubusercontent.com/u/41727379?v=4
+    name: 绅士兔
+    blog: 绅士兔的小屋
+    desc: 事已至此，先吃饭吧
+    color: "#7dbb7d"
 random: false
 ---
 

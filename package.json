@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "valaxy": "0.19.7",
-    "valaxy-addon-algolia": "^0.0.3",
+    "valaxy-addon-algolia": "^0.1.0",
     "valaxy-addon-components": "^0.0.2",
-    "valaxy-addon-waline": "^0.1.4",
+    "valaxy-addon-waline": "^0.2.0",
     "valaxy-theme-yun": "0.19.7"
   },
   "devDependencies": {
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.4"
   }
 }

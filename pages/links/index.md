@@ -71,6 +71,9 @@ links:
     desc: 事已至此，先吃饭吧
     color: "#7dbb7d"
 random: false
+aside: false
+comment: true
+nav: false
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />

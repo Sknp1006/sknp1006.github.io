@@ -1,5 +1,6 @@
 ---
 layout: archives
-nav: false
+aside: false
 comment: false
+nav: false
 ---

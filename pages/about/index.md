@@ -1,23 +1,17 @@
 ---
 title: 关于我
+aside: false
+comment: false
+nav: false
 ---
 
-### 关于昵称
+### Hi there, I'm [SKNP](https://sknp.top)（焼烤牛排）. 👋
 
-牛排 好吃 suki❤
-
-
-### 关于个人
-
-Hi there, I'm [SKNP](https://sknp.top)（焼烤牛排）. 👋
-
-I am an AI enthusiast from China. I am working with Machine Vision.
-
-- 🌱 I’m currently learning MV, and want to learn everything interesting.
+- 🌱 I’m currently working on Rockchip platform (RK356X/RK3588).
 - 🤔 I want to learn more about AI knowledge to make awesome open source projects.
 - ❤️ I like eating 🍖, playing 🏸, 🏃, listening to the 🎻, sleeping in 🛌.
-- 🎮 I've been getting into beat saber lately.🗡
-- Motto: Someday I will be just like you.（咪
+- 🎮 I don't play games anymore.
+- 💬 Be free to ask me about anything [here](https://github.com/Sknp1006/Sknp1006/issues).
 
 
 ### 碎碎念

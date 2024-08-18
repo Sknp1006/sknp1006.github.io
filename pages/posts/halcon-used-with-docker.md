@@ -16,7 +16,7 @@ categories:
 
 ## 正文
 
-> 先来回忆一下，之前已经实现了 [halcon导出C++代码并打包成so库给JAVA的JNA调用](https://sknplz.xyz/2021/08/13/halcon-cplusplus-to-so/) 。但实际项目是需要部署到k8s上的，于是通过 [【Paddle】用docker打包paddle文字识别服务](https://sknplz.xyz/2021/11/23/paddle-compose-a-word-recognizer/) 简单熟悉了一下通过编写DockerFile构建镜像的过程。
+> 先来回忆一下，之前已经实现了 [halcon导出C++代码并打包成so库给JAVA的JNA调用](https://sknp.top/posts/halcon-cplusplus-to-so) 。但实际项目是需要部署到k8s上的，于是通过 [【Paddle】用docker打包paddle文字识别服务](https://sknp.top/posts/paddle-compose-a-word-recognizer) 简单熟悉了一下通过编写DockerFile构建镜像的过程。
 
 ### 构建过程
 

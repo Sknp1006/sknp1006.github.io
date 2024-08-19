@@ -1,7 +1,7 @@
 ---
 title: 将本地Hexo代码搬运至服务器
 date: 2021-01-18 16:45:02
-update: 2021-01-18 16:45:02
+updated: 2024-08-18 16:45:02
 tags: [hexo]
 categories: 
   - 牛排的小笔记

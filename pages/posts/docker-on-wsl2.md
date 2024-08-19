@@ -1,6 +1,7 @@
 ---
 title: 在WSL2上使用docker
 date: 2020-09-19 17:00:00
+updated: 2020-09-19 17:00:00
 tags: [docker, WSL2, linux]
 categories: 
   - 牛排的小笔记

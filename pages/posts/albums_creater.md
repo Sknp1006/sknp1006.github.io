@@ -1,7 +1,7 @@
 ---
 title: yun主题相册生成器
 date: 2020-08-12 20:57:33
-updated: 2020-9-17
+updated: 2020-9-17 20:57:33
 tags: [Python, hexo-yun, PyQt5]
 categories: 
   - 牛排的小项目

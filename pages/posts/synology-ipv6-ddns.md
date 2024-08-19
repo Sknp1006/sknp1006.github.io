@@ -1,6 +1,7 @@
 ---
 title: 【玩转群晖】为nas配置ipv6动态解析
 date: 2022-02-09 15:02:33
+updated: 2022-02-09 15:02:33
 tags: [群晖, Synology, ipv6, ddns]
 categories: 
   - 牛排的小教程

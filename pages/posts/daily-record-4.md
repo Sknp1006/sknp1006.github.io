@@ -1,6 +1,7 @@
 ---
 title: 📆关于朋友成为Vup出道这件事
 date: 2021-01-31 22:59:40
+updated: 2021-01-31 22:59:40
 hide: true
 tags: [随笔, vtuber]
 categories: 

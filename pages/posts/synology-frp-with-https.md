@@ -1,6 +1,7 @@
 ---
 title: 【玩转群晖】为frp添加https
 date: 2021-08-21 16:30:30
+updated: 2021-08-23 11:18:00
 tags: [群晖, Synology, 内网穿透, frp, https]
 categories: 
   - 牛排的小教程

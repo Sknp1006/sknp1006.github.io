@@ -1,6 +1,7 @@
 ---
 title: 【K8S】Centos7安装KubeSphere集群
 date: 2022-04-01 20:22:33
+updated: 2022-04-01 20:22:33
 tags: [KubeSphere, Kubernetes, 运维, 虚拟机]
 categories: 
   - 牛排的小教程

@@ -1,6 +1,7 @@
 ---
 title: 【玩转群晖】FRP内网穿透
 date: 2021-08-15 23:30:30
+updated: 2021-08-15 23:30:30
 tags: [群晖, Synology, 内网穿透, frp, 轻量应用服务器]
 categories: 
   - 牛排的小教程

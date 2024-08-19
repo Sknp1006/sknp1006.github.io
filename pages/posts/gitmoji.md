@@ -1,6 +1,7 @@
 ---
 title: Gitmoji速查表
 date: 2021-01-11 20:57:33
+updated: 2021-01-11 20:57:33
 type: github
 url: https://github.com/jeff-tian/gitmoji/
 tags: [github]

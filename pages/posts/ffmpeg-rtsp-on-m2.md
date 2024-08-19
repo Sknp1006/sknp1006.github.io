@@ -1,6 +1,7 @@
 ---
 title: 【FFMPEG】使用 ffmpeg 推 RTSP 流
 date: 2024-08-15 14:12:30
+updated: 2024-08-15 14:12:30
 tags: [ffmpeg,rtsp,mediamtx,macbook pro,m2]
 categories: 
   - 牛排的小笔记

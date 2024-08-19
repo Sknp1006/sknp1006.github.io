@@ -1,6 +1,7 @@
 ---
 title: 【Paddle】用docker打包paddle文字识别服务
 date: 2021-11-23 18:16:02
+updated: 2021-11-23 18:16:02
 tags: [docker, paddle]
 categories: 
   - 牛排的小教程

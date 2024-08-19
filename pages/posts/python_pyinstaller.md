@@ -1,6 +1,7 @@
 ---
 title: pyinstaller使用教程
 date: 2020-08-03 22:23:27
+updated: 2020-08-03 22:23:27
 tags: [Python, pyinstaller]
 categories: 
   - 牛排的小笔记

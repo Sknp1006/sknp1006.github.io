@@ -4,7 +4,7 @@ date: 2024-01-31 16:22:33 +8
 updated: 2024-01-31 16:22:33 +8
 tags: [cross compile, aarch64, qt5]
 categories: 
-  - 牛排的小教程
+  - 牛排的小笔记
 ---
 
 ## 获取源码

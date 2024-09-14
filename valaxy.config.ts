@@ -34,12 +34,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-links-line',
         color: 'dodgerblue',
       },
-      {
-        name: '我的图床',
-        url: 'https://images.sknp.top/',
-        icon: 'i-ri-cloud-line',
-        color: '#FA8072',
-      },
+      // {
+      //   name: '我的图床',
+      //   url: 'https://images.sknp.top/',
+      //   icon: 'i-ri-cloud-line',
+      //   color: '#FA8072',
+      // },
     ],
 
     footer: {

@@ -6,7 +6,7 @@ export default defineSiteConfig({
   title: 'SKNP的小站',
   author: {
     name: '焼烤牛排',
-    avatar: 'https://images.sknp.top/images/2021/05/04/025.jpg',
+    avatar: 'https://s2.loli.net/2024/09/14/f9pFt715noEJxIV.jpg',
   },
   description: 'Someday I will be just like you.',
   social: [

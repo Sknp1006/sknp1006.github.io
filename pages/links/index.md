@@ -70,6 +70,12 @@ links:
     blog: 绅士兔的小屋
     desc: 事已至此，先吃饭吧
     color: "#7dbb7d"
+  - url: https://misakishiki.site
+    avatar: https://misakishiki.site/aquced.png
+    name: 栗木aquced
+    blog: 栗木小站
+    desc: 你好，我是栗木aquced
+    color: "#90DA57"
 random: false
 aside: false
 comment: true

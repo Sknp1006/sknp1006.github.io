@@ -1,8 +1,8 @@
 ---
-title: 【技术】纹理特征与灰度共生矩阵
-date: 2024-11-08 22:00:00
-updated: 2024-11-08 22:00:00
-tags: [Texture, GLCM, Image Processing]
+title: 【CV】纹理特征与灰度共生矩阵
+date: 2024-11-08 22:00:00 +8
+updated: 2024-11-08 22:00:00 +8
+tags: [Texture, GLCM, Image Processing, Computer Vision]
 categories: 
   - 牛排的小教程
 ---

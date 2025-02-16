@@ -17,34 +17,10 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/66124873',
-      icon: 'i-ri-bilibili-line',
-      color: '#FF8EB3',
-    },
-    {
       name: 'GitHub',
       link: 'https://github.com/Sknp1006',
       icon: 'i-ri-github-line',
       color: '#6e5494',
-    },
-    {
-      name: '微博',
-      link: 'https://weibo.com/sknpzhe',
-      icon: 'i-ri-weibo-line',
-      color: '#E6162D',
-    },
-    {
-      name: '网易云音乐',
-      link: 'https://music.163.com/#/user/home?id=1691069566',
-      icon: 'i-ri-netease-cloud-music-line',
-      color: '#C20C0C',
-    },
-    {
-      name: '知乎',
-      link: 'https://www.zhihu.com/people/sheng-kong-nie-pan/',
-      icon: 'i-ri-zhihu-line',
-      color: '#0084FF',
     },
     {
       name: 'Twitter',

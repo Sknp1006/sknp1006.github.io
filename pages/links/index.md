@@ -76,6 +76,12 @@ links:
     blog: 栗木小站
     desc: 你好，我是栗木aquced
     color: "#90DA57"
+  - url: https://kiseki.blog/
+    avatar: https://s.nmxc.ltd/sakurairo_vision/asuhe/furina.webp
+    name: 染川瞳
+    blog: 明日が来ると
+    desc: 信じてること自体が希望なんだ
+    color: "#FFB6C1"
 random: false
 aside: false
 comment: true

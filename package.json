@@ -11,13 +11,13 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.28.0-beta.7",
-    "valaxy-addon-algolia": "^0.2.0",
+    "valaxy": "0.28.7",
+    "valaxy-addon-algolia": "^0.2.1",
     "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-waline": "^0.2.1",
-    "valaxy-theme-yun": "0.28.0-beta.7"
+    "valaxy-theme-yun": "0.28.7"
   },
   "devDependencies": {
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   }
 }

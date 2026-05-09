@@ -14,10 +14,14 @@ import type {
   ParamValueZeroOrMore,
   ParamValueZeroOrOne,
 } from 'vue-router'
+import type {
+  _ExtractParamParserType,
+} from 'vue-router/experimental'
 
 declare module 'vue-router' {
   interface TypesConfig {
-    ParamParsers: never
+    ParamParsers:
+      | never
   }
 }
 
@@ -306,6 +310,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/label-check-system-ble': RouteRecordInfo<
+      '/posts/label-check-system-ble',
+      '/posts/label-check-system-ble',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/move-hexo-to-server': RouteRecordInfo<
       '/posts/move-hexo-to-server',
       '/posts/move-hexo-to-server',
@@ -431,13 +442,13 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.0-beta.6_vue@3.5.30_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.7_magicast@0.5.2_vue@3.5.30_typescript@6.0.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.28.0-beta.6_@babel+parser@7.29.2_@nuxt+kit@3.21.2_@types+markdown-it@14.1.2_@t_87a0a860dba2bbaf9e7ccd4e422216a5/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.28.7_@babel+parser@7.29.3_@nuxt+kit@3.21.4_magicast@0.5.2__@types+markdown-it@_6a23e0439722c69f81ee3f1c5db75e88/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -473,13 +484,13 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.0-beta.6_vue@3.5.30_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.7_magicast@0.5.2_vue@3.5.30_typescript@6.0.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.0-beta.6_vue@3.5.30_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.7_magicast@0.5.2_vue@3.5.30_typescript@6.0.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -668,6 +679,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/k8s-install-kubesphere-on-centos7.md': {
       routes:
         | '/posts/k8s-install-kubesphere-on-centos7'
+      views:
+        | never
+    }
+    'pages/posts/label-check-system-ble.md': {
+      routes:
+        | '/posts/label-check-system-ble'
       views:
         | never
     }

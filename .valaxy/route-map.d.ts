@@ -324,6 +324,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/odoo-development-guide': RouteRecordInfo<
+      '/posts/odoo-development-guide',
+      '/posts/odoo-development-guide',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/paddle-compose-a-word-recognizer': RouteRecordInfo<
       '/posts/paddle-compose-a-word-recognizer',
       '/posts/paddle-compose-a-word-recognizer',
@@ -691,6 +698,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/move-hexo-to-server.md': {
       routes:
         | '/posts/move-hexo-to-server'
+      views:
+        | never
+    }
+    'pages/posts/odoo-development-guide.md': {
+      routes:
+        | '/posts/odoo-development-guide'
       views:
         | never
     }
